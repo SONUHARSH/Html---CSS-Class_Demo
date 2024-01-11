@@ -1,0 +1,51 @@
+
+
+.newlayout {
+    display: flex;
+    
+    flex-direction:row-reverse;
+}
+
+
+.newlayout div{
+
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin:10px ;
+    flex-basis: 200px;
+    /* for direction = row-width
+    for direction = column - height */
+
+}
+
+.first{
+    flex-grow: 2;
+    flex-shrink: 0.5;
+}
+p{
+    font-size:x-large ;
+    border: 2px dashed black;
+    color: blue;
+}
+
+#parent{
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+
+    justify-content:space-evenly;/* main axis*/
+    align-items:center;/* ceoss axis*/
+
+    /* space-evenly, space-around and space-between */
+}
+#child{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+
+    margin: 20px;
+}

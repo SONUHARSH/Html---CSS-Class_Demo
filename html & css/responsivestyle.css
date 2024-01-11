@@ -1,0 +1,53 @@
+
+/*body {
+    background-color: rgb(159, 138, 142);
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  
+    
+
+    * {
+        max-width: 100%;
+        display: none;
+    }
+
+    #container {
+
+        width: 400px;
+        
+    }
+
+    img {
+        height: auto;
+    }
+}
+
+#printmsg{
+    font-size: 200px;
+    display: none;
+}
+
+@media print {
+
+    #printmsg {
+    display: block;
+    }
+
+}*/
+
+body {
+
+    background-color: green;
+}
+@media screen and (max-width: 500px)  {
+
+    body{
+        background-color: red;
+    
+    }
+    *{
+        max-width: 100%;
+    }
+    
+}
